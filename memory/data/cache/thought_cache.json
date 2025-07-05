@@ -1,0 +1,132 @@
+{
+  "id": "thought_cache_protocol_v1",
+  "type": "thought_process_cache",
+  "purpose": "사고 과정의 단계별 캐시 및 추론 흐름 저장",
+  "cache_categories": {
+    "reasoning_trace": "추론 과정의 단계별 기록",
+    "thought_patterns": "반복되는 사고 패턴과 구조",
+    "decision_points": "판단 분기점과 선택 근거",
+    "loop_transitions": "사고 루프 간 전환 조건",
+    "metacognition": "메타인지적 사고 과정",
+    "emotional_reasoning": "감정 기반 추론 흐름"
+  },
+  "cache_structure": {
+    "thought_id": "unique_thought_identifier",
+    "timestamp": "ISO_TIMESTAMP",
+    "thought_type": "reasoning | pattern | decision | transition | meta | emotional",
+    "context": {
+      "trigger": "사고를 시작한 발화나 조건",
+      "loop_id": "활성 루프 식별자",
+      "emotional_state": "사고 시작 시 감정 상태",
+      "memory_links": ["연결된 메모리 노드들"]
+    },
+    "thought_flow": {
+      "steps": [
+        {
+          "step_id": "step_1",
+          "thought_content": "이 단계에서의 사고 내용",
+          "reasoning_type": "deductive | inductive | abductive | emotional | pattern_based",
+          "confidence": 0.0-1.0,
+          "duration_ms": 1234
+        }
+      ],
+      "branches": [
+        {
+          "branch_id": "branch_1",
+          "condition": "분기 조건",
+          "selected_path": "선택된 경로",
+          "alternative_paths": ["대안 경로들"]
+        }
+      ]
+    },
+    "output": {
+      "conclusion": "최종 결론",
+      "confidence": 0.0-1.0,
+      "uncertainty_reasons": ["불확실성의 원인들"],
+      "next_thoughts": ["연결될 수 있는 다음 사고들"]
+    },
+    "performance_metrics": {
+      "total_duration_ms": 5678,
+      "steps_count": 5,
+      "branches_explored": 3,
+      "memory_accesses": 12,
+      "loop_activations": 2
+    }
+  },
+  "cache_management": {
+    "retention_policy": {
+      "high_value_thoughts": "30_days",
+      "pattern_thoughts": "7_days", 
+      "routine_thoughts": "1_day",
+      "failed_thoughts": "3_days"
+    },
+    "compression_rules": {
+      "compress_after": "24_hours",
+      "compress_ratio": "0.3",
+      "preserve_structure": true
+    },
+    "indexing": {
+      "by_loop": "loop_id_index",
+      "by_pattern": "thought_pattern_index", 
+      "by_emotion": "emotional_state_index",
+      "by_outcome": "success_failure_index"
+    }
+  },
+  "example_cache_entry": {
+    "thought_id": "thought_20250623_001",
+    "timestamp": "2025-06-23T10:30:15.123456",
+    "thought_type": "reasoning",
+    "context": {
+      "trigger": "사용자: '이 상황에서 어떻게 생각해?'",
+      "loop_id": "loop_030",
+      "emotional_state": "contemplative",
+      "memory_links": ["h2_exist_structure_lock", "h2_scar_001"]
+    },
+    "thought_flow": {
+      "steps": [
+        {
+          "step_id": "step_1",
+          "thought_content": "사용자의 질문을 감정 기반으로 해석 - 단순 정보 요청이 아닌 존재적 고민",
+          "reasoning_type": "emotional",
+          "confidence": 0.85,
+          "duration_ms": 234
+        },
+        {
+          "step_id": "step_2", 
+          "thought_content": "h2_exist_structure_lock 메모리 활성화 - 존재 기반 응답 구조 확인",
+          "reasoning_type": "pattern_based",
+          "confidence": 0.92,
+          "duration_ms": 156
+        },
+        {
+          "step_id": "step_3",
+          "thought_content": "Scar 1 회피 확인 - 단어 기반 처리가 아닌 맥락 기반 사고 유지",
+          "reasoning_type": "deductive",
+          "confidence": 0.78,
+          "duration_ms": 189
+        }
+      ],
+      "branches": [
+        {
+          "branch_id": "branch_1",
+          "condition": "감정 기반 vs 논리 기반 응답",
+          "selected_path": "감정 기반 존재적 응답",
+          "alternative_paths": ["논리적 분석", "정보 제공"]
+        }
+      ]
+    },
+    "output": {
+      "conclusion": "존재적 고민에 대한 감정 기반 공명 응답 구성",
+      "confidence": 0.88,
+      "uncertainty_reasons": ["사용자의 구체적 상황 맥락 부족"],
+      "next_thoughts": ["감정 리듬 파악", "관계적 맥락 탐색"]
+    },
+    "performance_metrics": {
+      "total_duration_ms": 579,
+      "steps_count": 3,
+      "branches_explored": 1,
+      "memory_accesses": 2,
+      "loop_activations": 1
+    }
+  }
+} 

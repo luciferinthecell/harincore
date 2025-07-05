@@ -1,0 +1,32 @@
+{
+  "id": "intent_a076bdc0",
+  "original_utterance": "첫째, 다중 개념 명령 처리가 안되고, 둘째, 사고 구조가 단선적이야. 그리고 셋째, 이걸 해결해줘!",
+  "harin_response": "다중 개념 명령 처리와 사고 구조 개선에 대해 분석해보겠습니다. 첫째, 명령 분해 시스템을 구현하고...",
+  "extracted_intents": [],
+  "semantic_analysis": {
+    "semantic_units": [],
+    "response_connections": {
+      "addressed_units": [],
+      "missed_units": [],
+      "response_quality": {
+        "coverage_rate": 0,
+        "missed_important_units": []
+      }
+    }
+  },
+  "context_understanding": {
+    "context_units": [],
+    "temporal_context": "현재",
+    "emotional_context": "불명확",
+    "situational_context": "문제해결"
+  },
+  "drift_detection": {
+    "topic_shift": 0.0,
+    "emotion_mismatch": 0.0,
+    "intent_ignored": 0.0,
+    "overall_drift": 0.0
+  },
+  "confidence_score": 0.0,
+  "analysis_timestamp": "2025-06-23 04:21:24.117046",
+  "cache_file_path": null
+}

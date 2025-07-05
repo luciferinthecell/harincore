@@ -1,0 +1,118 @@
+{
+  "id": "memory_cache_protocol_v1",
+  "type": "memory_access_cache",
+  "purpose": "메모리 검색, 접근, 연관 과정의 캐시 및 최적화",
+  "cache_categories": {
+    "access_patterns": "메모리 접근 패턴과 빈도",
+    "search_queries": "검색 쿼리와 결과 매핑",
+    "association_links": "메모리 간 연관 관계 캐시",
+    "retrieval_paths": "메모리 검색 경로 최적화",
+    "context_mappings": "문맥별 메모리 매핑",
+    "emotional_anchors": "감정 기반 메모리 앵커"
+  },
+  "cache_structure": {
+    "cache_id": "unique_cache_identifier",
+    "timestamp": "ISO_TIMESTAMP",
+    "cache_type": "access | search | association | retrieval | context | emotional",
+    "trigger_context": {
+      "input_text": "검색을 유발한 입력",
+      "emotional_state": "검색 시 감정 상태",
+      "active_loop": "활성 루프 ID",
+      "intent": "검색 의도"
+    },
+    "search_process": {
+      "query_vector": "검색 벡터",
+      "search_strategy": "semantic | emotional | pattern | hybrid",
+      "filters_applied": ["적용된 필터들"],
+      "search_depth": "검색 깊이 레벨"
+    },
+    "results": {
+      "primary_matches": [
+        {
+          "memory_id": "h2_exist_structure_lock",
+          "relevance_score": 0.95,
+          "match_type": "semantic | emotional | pattern",
+          "access_path": "direct | associative | contextual"
+        }
+      ],
+      "secondary_matches": ["관련된 다른 메모리들"],
+      "excluded_memories": ["제외된 메모리들과 이유"]
+    },
+    "performance": {
+      "search_time_ms": 123,
+      "memory_accessed": 5,
+      "cache_hit": true,
+      "optimization_applied": "pattern_matching"
+    },
+    "usage_feedback": {
+      "was_helpful": true,
+      "accuracy_score": 0.92,
+      "user_satisfaction": 0.88,
+      "improvement_suggestions": ["개선 제안들"]
+    }
+  },
+  "cache_optimization": {
+    "hot_memories": {
+      "frequently_accessed": ["자주 접근되는 메모리들"],
+      "access_patterns": "접근 패턴 분석",
+      "prefetch_candidates": ["미리 로드할 후보들"]
+    },
+    "cold_memories": {
+      "rarely_accessed": ["드물게 접근되는 메모리들"],
+      "compression_status": "compressed | archived",
+      "reactivation_triggers": ["재활성화 조건들"]
+    },
+    "association_network": {
+      "strong_links": ["강한 연관 관계들"],
+      "weak_links": ["약한 연관 관계들"],
+      "emerging_patterns": ["새로 형성되는 패턴들"]
+    }
+  },
+  "example_cache_entry": {
+    "cache_id": "mem_cache_20250623_001",
+    "timestamp": "2025-06-23T10:35:22.456789",
+    "cache_type": "search",
+    "trigger_context": {
+      "input_text": "존재에 대해 어떻게 생각해?",
+      "emotional_state": "contemplative",
+      "active_loop": "loop_030",
+      "intent": "존재 관련 기억 검색"
+    },
+    "search_process": {
+      "query_vector": ["존재", "사고", "감정", "리듬"],
+      "search_strategy": "hybrid",
+      "filters_applied": ["existence", "emotional", "recent"],
+      "search_depth": 3
+    },
+    "results": {
+      "primary_matches": [
+        {
+          "memory_id": "h2_exist_structure_lock",
+          "relevance_score": 0.98,
+          "match_type": "semantic",
+          "access_path": "direct"
+        },
+        {
+          "memory_id": "h2_cent1",
+          "relevance_score": 0.85,
+          "match_type": "emotional",
+          "access_path": "associative"
+        }
+      ],
+      "secondary_matches": ["h2_scar_001", "h2_coreloop_transition"],
+      "excluded_memories": ["h3_mission_stmt", "h3_k_grid_goal"]
+    },
+    "performance": {
+      "search_time_ms": 89,
+      "memory_accessed": 4,
+      "cache_hit": true,
+      "optimization_applied": "semantic_indexing"
+    },
+    "usage_feedback": {
+      "was_helpful": true,
+      "accuracy_score": 0.95,
+      "user_satisfaction": 0.92,
+      "improvement_suggestions": ["감정 기반 검색 가중치 증가"]
+    }
+  }
+} 

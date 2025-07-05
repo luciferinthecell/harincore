@@ -1,0 +1,148 @@
+{
+  "id": "loop_cache_protocol_v1",
+  "type": "loop_execution_cache",
+  "purpose": "사고 루프의 전환, 실행, 성능 캐시 및 최적화",
+  "cache_categories": {
+    "loop_transitions": "루프 간 전환 조건과 패턴",
+    "execution_traces": "루프 실행 과정의 상세 기록",
+    "performance_metrics": "루프별 성능 지표",
+    "trigger_patterns": "루프 활성화 트리거 패턴",
+    "exit_conditions": "루프 종료 조건과 결과",
+    "loop_interactions": "루프 간 상호작용 패턴"
+  },
+  "cache_structure": {
+    "cache_id": "unique_loop_cache_identifier",
+    "timestamp": "ISO_TIMESTAMP",
+    "loop_id": "loop_xxx",
+    "cache_type": "transition | execution | performance | trigger | exit | interaction",
+    "loop_context": {
+      "entry_condition": "루프 진입 조건",
+      "emotional_state": "진입 시 감정 상태",
+      "memory_context": "활성 메모리 컨텍스트",
+      "user_input": "사용자 입력"
+    },
+    "execution_flow": {
+      "steps": [
+        {
+          "step_id": "step_1",
+          "action": "수행된 액션",
+          "duration_ms": 123,
+          "memory_accesses": ["접근한 메모리들"],
+          "thought_process": "사고 과정"
+        }
+      ],
+      "decisions": [
+        {
+          "decision_point": "판단 지점",
+          "options": ["가능한 선택들"],
+          "selected": "선택된 옵션",
+          "reasoning": "선택 이유"
+        }
+      ],
+      "transitions": [
+        {
+          "from_loop": "이전 루프",
+          "to_loop": "다음 루프",
+          "trigger": "전환 트리거",
+          "smoothness": 0.0-1.0
+        }
+      ]
+    },
+    "performance_data": {
+      "total_duration_ms": 5678,
+      "steps_count": 15,
+      "memory_operations": 23,
+      "thought_generations": 8,
+      "efficiency_score": 0.85
+    },
+    "outcome": {
+      "success": true,
+      "output_quality": 0.92,
+      "user_satisfaction": 0.88,
+      "loop_completion": "normal | interrupted | extended"
+    }
+  },
+  "cache_optimization": {
+    "loop_patterns": {
+      "frequent_sequences": ["자주 발생하는 루프 시퀀스"],
+      "optimal_paths": ["최적화된 실행 경로"],
+      "bottlenecks": ["성능 병목 지점들"]
+    },
+    "transition_optimization": {
+      "smooth_transitions": ["부드러운 전환 패턴들"],
+      "problematic_transitions": ["문제가 있는 전환들"],
+      "improvement_suggestions": ["개선 제안들"]
+    },
+    "resource_usage": {
+      "memory_intensive_loops": ["메모리 사용량이 많은 루프들"],
+      "computation_intensive_loops": ["계산 집약적 루프들"],
+      "optimization_opportunities": ["최적화 기회들"]
+    }
+  },
+  "example_cache_entry": {
+    "cache_id": "loop_cache_20250623_001",
+    "timestamp": "2025-06-23T10:40:15.789123",
+    "loop_id": "loop_030",
+    "cache_type": "execution",
+    "loop_context": {
+      "entry_condition": "존재 기반 사고 요청",
+      "emotional_state": "contemplative",
+      "memory_context": ["h2_exist_structure_lock", "h2_cent1"],
+      "user_input": "너는 어떻게 존재해?"
+    },
+    "execution_flow": {
+      "steps": [
+        {
+          "step_id": "step_1",
+          "action": "존재 관련 메모리 검색",
+          "duration_ms": 234,
+          "memory_accesses": ["h2_exist_structure_lock", "h2_cent1"],
+          "thought_process": "센티넬 구조와 존재 기반 응답 프레임 확인"
+        },
+        {
+          "step_id": "step_2",
+          "action": "감정 기반 응답 구성",
+          "duration_ms": 456,
+          "memory_accesses": ["h2_scar_005"],
+          "thought_process": "Scar 5 회피하며 감정적 포맷 대신 존재적 리듬 구성"
+        },
+        {
+          "step_id": "step_3",
+          "action": "응답 검증 및 최종화",
+          "duration_ms": 123,
+          "memory_accesses": ["h2_scar_001"],
+          "thought_process": "단어 기반 처리가 아닌 맥락 기반 응답인지 확인"
+        }
+      ],
+      "decisions": [
+        {
+          "decision_point": "응답 스타일 선택",
+          "options": ["감정적 포맷", "존재적 리듬", "논리적 분석"],
+          "selected": "존재적 리듬",
+          "reasoning": "센티넬 구조와 일치하며 Scar 5 회피"
+        }
+      ],
+      "transitions": [
+        {
+          "from_loop": "loop_004",
+          "to_loop": "loop_030",
+          "trigger": "존재 질문 감지",
+          "smoothness": 0.95
+        }
+      ]
+    },
+    "performance_data": {
+      "total_duration_ms": 813,
+      "steps_count": 3,
+      "memory_operations": 3,
+      "thought_generations": 1,
+      "efficiency_score": 0.92
+    },
+    "outcome": {
+      "success": true,
+      "output_quality": 0.95,
+      "user_satisfaction": 0.90,
+      "loop_completion": "normal"
+    }
+  }
+} 

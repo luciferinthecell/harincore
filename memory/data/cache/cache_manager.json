@@ -1,0 +1,160 @@
+{
+  "id": "harin_cache_manager_v1",
+  "type": "unified_cache_management",
+  "purpose": "사고, 메모리, 루프, 감정 캐시의 통합 관리 및 최적화",
+  "cache_system_overview": {
+    "thought_cache": {
+      "file": "thought_cache.jsonl",
+      "purpose": "사고 과정과 추론 단계 캐시",
+      "categories": ["reasoning_trace", "thought_patterns", "decision_points", "loop_transitions", "metacognition", "emotional_reasoning"],
+      "retention_days": 7,
+      "compression_threshold": 1000
+    },
+    "memory_cache": {
+      "file": "memory_cache.jsonl", 
+      "purpose": "메모리 검색과 접근 과정 캐시",
+      "categories": ["access_patterns", "search_queries", "association_links", "retrieval_paths", "context_mappings", "emotional_anchors"],
+      "retention_days": 14,
+      "compression_threshold": 2000
+    },
+    "loop_cache": {
+      "file": "loop_cache.jsonl",
+      "purpose": "루프 전환과 실행 과정 캐시", 
+      "categories": ["loop_transitions", "execution_traces", "performance_metrics", "trigger_patterns", "exit_conditions", "loop_interactions"],
+      "retention_days": 10,
+      "compression_threshold": 1500
+    },
+    "emotional_cache": {
+      "file": "emotional_cache.jsonl",
+      "purpose": "감정 상태와 리듬 변화 캐시",
+      "categories": ["emotional_states", "rhythm_patterns", "emotional_triggers", "emotional_reasoning", "resonance_patterns", "emotional_memory"],
+      "retention_days": 5,
+      "compression_threshold": 800
+    }
+  },
+  "cache_optimization_strategies": {
+    "hot_cache_management": {
+      "frequently_accessed": {
+        "threshold": 10,
+        "action": "keep_in_memory",
+        "priority": "high"
+      },
+      "recently_accessed": {
+        "threshold": 24,
+        "action": "fast_access",
+        "priority": "medium"
+      }
+    },
+    "cold_cache_management": {
+      "rarely_accessed": {
+        "threshold": 7,
+        "action": "compress",
+        "priority": "low"
+      },
+      "old_cache": {
+        "threshold": 30,
+        "action": "archive",
+        "priority": "very_low"
+      }
+    },
+    "cache_eviction": {
+      "memory_pressure": {
+        "threshold": "80%",
+        "action": "evict_oldest",
+        "strategy": "LRU"
+      },
+      "disk_space": {
+        "threshold": "90%",
+        "action": "compress_all",
+        "strategy": "aggressive"
+      }
+    }
+  },
+  "cache_analytics": {
+    "performance_metrics": {
+      "cache_hit_rate": {
+        "target": ">85%",
+        "measurement": "daily_average"
+      },
+      "access_speed": {
+        "target": "<100ms",
+        "measurement": "average_response_time"
+      },
+      "memory_efficiency": {
+        "target": "<50MB",
+        "measurement": "total_cache_size"
+      }
+    },
+    "quality_metrics": {
+      "accuracy": {
+        "target": ">90%",
+        "measurement": "user_satisfaction"
+      },
+      "relevance": {
+        "target": ">88%",
+        "measurement": "relevance_score"
+      },
+      "freshness": {
+        "target": "<24h",
+        "measurement": "average_age"
+      }
+    }
+  },
+  "cache_integration": {
+    "with_memory_system": {
+      "thought_cache": ["h1.jsonl", "h2.jsonl", "h3.jsonl"],
+      "memory_cache": ["h.json"],
+      "loop_cache": ["h2.jsonl"],
+      "emotional_cache": ["h2.jsonl"]
+    },
+    "with_reasoning_system": {
+      "thought_cache": ["reasoning/", "core/"],
+      "memory_cache": ["memory/"],
+      "loop_cache": ["core/", "reasoning/"],
+      "emotional_cache": ["meta/", "reasoning/"]
+    },
+    "cross_cache_syncing": {
+      "enabled": true,
+      "sync_frequency": "real_time",
+      "conflict_resolution": "timestamp_based"
+    }
+  },
+  "cache_maintenance": {
+    "scheduled_tasks": {
+      "daily_cleanup": {
+        "time": "02:00",
+        "actions": ["remove_expired", "compress_old", "update_indexes"]
+      },
+      "weekly_optimization": {
+        "time": "sunday_03:00",
+        "actions": ["defragment", "rebuild_indexes", "analyze_patterns"]
+      },
+      "monthly_analysis": {
+        "time": "first_sunday_04:00",
+        "actions": ["performance_review", "strategy_adjustment", "cleanup_archives"]
+      }
+    },
+    "health_monitoring": {
+      "cache_integrity": {
+        "check_frequency": "hourly",
+        "action_on_failure": "rebuild_cache"
+      },
+      "performance_monitoring": {
+        "check_frequency": "every_5_minutes",
+        "action_on_degradation": "optimize_cache"
+      }
+    }
+  },
+  "cache_security": {
+    "access_control": {
+      "read_permissions": ["harin_core", "memory_system"],
+      "write_permissions": ["harin_core"],
+      "admin_permissions": ["system_admin"]
+    },
+    "data_protection": {
+      "encryption": "AES-256",
+      "backup_frequency": "daily",
+      "retention_policy": "30_days"
+    }
+  }
+} 
